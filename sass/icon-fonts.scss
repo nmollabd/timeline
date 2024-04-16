@@ -1,0 +1,11 @@
+// MIXIN
+@import 'mixin';
+
+// ICON FONTS
+@include icon-config(
+	'../fonts', 
+	'1degreeweather', 
+	'28706112'
+);
+
+@import 'icon';
